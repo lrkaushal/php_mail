@@ -16,8 +16,8 @@ function sendVerificationEmail($userEmail, $verificationCode)
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Your SMTP server
         $mail->SMTPAuth = true;
-        $mail->Username = 'enterprises.official15ss@gmail.com'; // Your SMTP username
-        $mail->Password = 'rcse ngtq wwxt jqia'; // Your SMTP password
+        $mail->Username = ''; // Your SMTP username
+        $mail->Password = ''; // Your SMTP password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
